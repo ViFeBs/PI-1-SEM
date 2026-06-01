@@ -15,12 +15,12 @@ function draw(){
 
 function mouseClicked(){
   if((mouseX > width * 0.05) && (mouseX < (width * 0.05 + 50)) && (mouseY > 175) && (mouseY < (175 + 50))){
-    //voltar
-    window.location.href = "../../lado A/floresta/tfloresta.html"
+    //Cidadões
+    window.location.href = "../../lado A/cidade A/tCidadoesA.html"
   }
   
   if((mouseX > width * 0.80) && (mouseX < (width * 0.80 + 50)) && (mouseY > 175) && (mouseY < (175 + 50))){
-    //Cidade
-    console.log("trilha")
+    //Quem tá me olhando?
+    window.location.href = "../../lado A/vigilante/tVigilante.html"
   }
 }

@@ -1,13 +1,24 @@
 body{
-    background-color: gray;
+    background-image: url("../src/images/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     min-height: 100vh;
-    margin: 0;
 }
 
 .draw{
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;

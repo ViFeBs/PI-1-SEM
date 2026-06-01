@@ -1,18 +1,46 @@
-
+let x = 0;
+let y = 0;
+let dialogo = "lorem ipsu";
+let contadorDialogo = 0;
 function setup(){
   createCanvas(320,240);
-  background(0);
+  x = (width * 0.50) - 5;
+  y = (height * 0.50) + 25;
 }
 
 function draw(){
+  background(0);
+  escolheDialogo();
   // TEXT
   fill(255);
-  text('Buraco', (width * 0.50) - 10, height * 0.50);
-  text('🔻', (width * 0.50) - 5, height * 0.50 + 25);
+  textSize(12);
+  text(dialogo, (width * 0.50) - 10, height * 0.50);
+  textSize(20);
+  text('🔻', x, y);
+  if(y < (height * 0.50) + 26){
+    y = y + 0.02;
+  }
+  if(y > (height * 0.50) + 25){
+    y = y - 1;
+  }
+}
+
+function escolheDialogo(){
+  if(contadorDialogo === 0){
+    dialogo = "Buraco 0"
+  }
+  if(contadorDialogo === 1){
+    dialogo = "Buraco 1"
+  }
+  if(contadorDialogo === 2){
+    dialogo = "Buraco 2"
+  }
+  if(contadorDialogo === 3){
+    //mover para buraco
+    window.location.href = "../../lado B/buraco/buraco.html";
+  }
 }
 
 function mouseClicked(){
-  //mover para buraco
-  console.log("T Buraco")
-  window.location.href = "../../lado B/buraco/buraco.html";
+  contadorDialogo++;
 }

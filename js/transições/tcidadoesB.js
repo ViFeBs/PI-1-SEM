@@ -2,7 +2,7 @@ let x = 0;
 let y = 0;
 let dialogo = "lorem ipsu";
 let contadorDialogo = 0;
-function setup() {
+function setup(){
   createCanvas(320,240);
   x = (width * 0.50) - 5;
   y = (height * 0.50) + 25;
@@ -14,7 +14,7 @@ function draw(){
   // TEXT
   fill(255);
   textSize(12);
-  text(dialogo, (width * 0.50) - 10, height * 0.50);
+  text(dialogo, (width * 0.50) - 25, height * 0.50);
   textSize(20);
   text('🔻', x, y);
   if(y < (height * 0.50) + 26){
@@ -27,17 +27,17 @@ function draw(){
 
 function escolheDialogo(){
   if(contadorDialogo === 0){
-    dialogo = "Trilha 0"
+    dialogo = "Cidadões B 0"
   }
   if(contadorDialogo === 1){
-    dialogo = "Trilha 1"
+    dialogo = "Cidadões B 1"
   }
   if(contadorDialogo === 2){
-    dialogo = "Trilha 2"
+    dialogo = "Cidadões B 2"
   }
   if(contadorDialogo === 3){
-    //mover para Trilha
-    window.location.href = "../../lado A/trilha/trilha.html";
+    //mover para os cidadões
+    window.location.href = "cidadoesB.html"
   }
 }
 

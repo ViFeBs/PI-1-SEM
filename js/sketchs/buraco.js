@@ -16,11 +16,11 @@ function draw(){
 function mouseClicked(){
   if((mouseX > width * 0.05) && (mouseX < (width * 0.05 + 50)) && (mouseY > 175) && (mouseY < (175 + 50))){
     //conversar com os cidadões
-    window.location.href = "../../lado A/cidade B/tCidadoesA.html";
+    window.location.href = "../../lado B/cidade B/tCidadoesB.html";
   }
   
   if((mouseX > width * 0.80) && (mouseX < (width * 0.80 + 50)) && (mouseY > 175) && (mouseY < (175 + 50))){
     //falar com o vendedoor
-    window.location.href = "../../lado A/cidade A/tCidadoesA.html";
+    window.location.href = "../../lado B/vendedor B/tVendedorB.html";
   }
 }
