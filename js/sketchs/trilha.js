@@ -16,11 +16,11 @@ function draw(){
 function mouseClicked(){
   if((mouseX > width * 0.05) && (mouseX < (width * 0.05 + 50)) && (mouseY > 175) && (mouseY < (175 + 50))){
     //Cidadões
-    window.location.href = "../../lado A/cidade A/tCidadoesA.html"
+    window.location.href = "../../lado A/cidade A/cidadoesA.html"
   }
   
   if((mouseX > width * 0.80) && (mouseX < (width * 0.80 + 50)) && (mouseY > 175) && (mouseY < (175 + 50))){
     //Quem tá me olhando?
-    window.location.href = "../../lado A/vigilante/tVigilante.html"
+    window.location.href = "../../lado A/vigilante/vigilante.html"
   }
 }
