@@ -108,6 +108,6 @@ function mouseClicked(){
   
   if((mouseX > (width * 0.74 - 10)) && (mouseX < (width * 0.74 + 60)) && (mouseY > height * 0.79) && (mouseY < (height * 0.79 + 50))){
     //falar com o vendedor de flores
-    window.location.href = "../vendedorA/vendedorB.html";
+    window.location.href = "../vendedorB/vendedorB.html";
   }
 }
