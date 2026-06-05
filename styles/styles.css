@@ -10,11 +10,11 @@ body{
     min-height: 100vh;
 }
 
-.draw{
-    padding-left: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.draw{ 
+    padding-left: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 main{
