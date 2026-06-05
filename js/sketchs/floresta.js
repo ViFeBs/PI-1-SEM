@@ -3,8 +3,8 @@ let fundo;
 let somDeFundo;
 let audioisplaying = false;
 function preload(){
-  fundo = loadImage("../../src/images/floresta.png");
-  somDeFundo = loadSound("../../src/sounds/GreatFairy'sFountain.mp3");
+  fundo = loadImage("../../../src/images/floresta.png");
+  somDeFundo = loadSound("../../../src/sounds/GreatFairy'sFountain.mp3");
 }
 function setup(){
   createCanvas(320,240);
