@@ -66,11 +66,11 @@ function draw(){
 function mouseClicked(){
   if((mouseX > X - 10) && (mouseX < (X + 10)) && (mouseY > Y - 10) && (mouseY < (Y + 10))){
     //Templo
-    window.location.href = "../PI-1-SEM/pages/lado A/templo/templo.html"
+    window.location.href = "../templo/templo.html"
   }
   
   if((mouseX > width*0.75) && (mouseX < (width*0.75 + 50)) && (mouseY > height * 0.05) && (mouseY < (height * 0.05 + 60))){
     //Fazenda
-    window.location.href = "../PI-1-SEM/pages/lado A/fazenda/fazenda.html"
+    window.location.href = "../fazenda/fazenda.html"
   }
 }
