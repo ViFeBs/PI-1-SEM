@@ -105,13 +105,13 @@ function mouseClicked(){
   if((mouseX > (width*0.10 - 10)) && (mouseX < (width*0.10 + 70)) && (mouseY > height * 0.25) && (mouseY < (height * 0.25 + 50))){
     //mover para trilha
     console.log("trilha")
-    window.location.href = "../../pages/lado A/trilha/trilha.html"
+    window.location.href = "../../PI-1-SEM/pages/lado A/trilha/trilha.html"
   }
   
   //LADO B
   if((mouseX > (width*0.70 - 20)) && (mouseX < (width*0.70 + 50)) && (mouseY > height * 0.25) && (mouseY < (height * 0.25 + 50))){
     //mover para o buraco
     console.log("buraco")
-    window.location.href = "../../../pages/lado B/cidade/cidade.html"    
+    window.location.href = "../../../PI-1-SEM/pages/lado B/cidade/cidade.html"    
   }
 }

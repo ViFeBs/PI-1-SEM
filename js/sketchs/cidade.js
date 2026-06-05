@@ -103,11 +103,11 @@ function novoNpcDireita(){
 function mouseClicked(){
   if((mouseX > (width * 0.10 - 10)) && (mouseX < (width * 0.10 + 60)) && (mouseY > height * 0.79) && (mouseY < (height * 0.79 + 50))){
     //conversar com o vendedo
-    window.location.href = "../../lado B/vendedorA/vendedorA.html";
+    window.location.href = "../../PI-1-SEM/lado B/vendedorA/vendedorA.html";
   }
   
   if((mouseX > (width * 0.74 - 10)) && (mouseX < (width * 0.74 + 60)) && (mouseY > height * 0.79) && (mouseY < (height * 0.79 + 50))){
     //falar com o vendedor de flores
-    window.location.href = "../../lado B/vendedorB/vendedorB.html";
+    window.location.href = "../../PI-1-SEM/lado B/vendedorB/vendedorB.html";
   }
 }
